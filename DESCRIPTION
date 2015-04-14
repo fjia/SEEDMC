@@ -1,0 +1,14 @@
+Package: SEEDMC
+Title: SEarch for Efficient Designs using Monte Carlo Simulation
+Version: 1.0.0
+Date: 2015
+Authors@R: c(person("Fan", "Jia", email = "fanjia@ku.edu", role = c("aut", "cre")),
+		person("Wei", "Wu", email = "wwei@ku.edu", role = "aut"))
+Description: A systematic procedure to search for efficient 
+	complete data and planned missing data designs for growth-curve modeling 
+	under budget or sample size constraints.
+Depends: R (>= 3.0.0)
+License: GPL (>= 3.0)
+LazyData: true
+Imports: MplusAutomation
+Suggests: testthat
